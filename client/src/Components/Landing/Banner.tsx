@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 export function Banner(){
     return (
-        <section className="w-full h-11/12 relative">
+        <section className="w-full min-h-220 relative border-b-2 border-red-600">
             <figure className="w-full h-full flex flex-col items-center justify-center 
             bg-black">
                 <img alt="Banner Image" src="../../public/UFC-banner.jpg" className="w-full
