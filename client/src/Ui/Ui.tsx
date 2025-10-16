@@ -18,7 +18,8 @@ export const titlesLanding = {
         why: '¿Por qué Octagon Data?'
     },
     fighters: '¿Que información se puede encontrar sobre los peleadores?',
-    events: '¿Qué eventos se pueden encontrar en nuestra plataforma?'
+    events: '¿Qué eventos se pueden encontrar en nuestra plataforma?',
+    ranking: 'Ranking Mundial de la UFC',
     
 }
 // Cartas de la seccion de peleadores
@@ -99,5 +100,12 @@ export const paragraphsLanding = {
         con detalles como la fecha, ubicación, peleadores participantes y resultados.
         Además, ofrecemos información sobre eventos especiales, como peleas de campeonato
         y eventos destacados.`
+    },
+    ranking: {
+        first: `Consulta las clasificaciones oficiales de la UFC, actualizadas
+        regularmente para reflejar los resultados más recientes de los combates.
+        Encuentra a los mejores luchadores en cada categoría de peso y mantente
+        informado sobre quiénes son los contendientes principales en el mundo
+        de las artes marciales mixtas.`
     }
 }

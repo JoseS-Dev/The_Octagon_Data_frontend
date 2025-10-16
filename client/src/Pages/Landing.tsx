@@ -3,6 +3,7 @@ import { Banner } from "../Components/Landing/Banner"
 import { About } from "../Components/Landing/About"
 import { Fighters } from "../Components/Landing/Fighters"
 import { Events } from "../Components/Landing/Events"
+import { Ranking } from "../Components/Landing/Ranking"
 export function Landing() {
     return (
         <div className="w-full h-screen flex flex-col items-center">
@@ -11,6 +12,7 @@ export function Landing() {
             <About/>
             <Fighters/>
             <Events/>
+            <Ranking/>
         </div>
     )
 }

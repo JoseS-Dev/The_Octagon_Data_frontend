@@ -2,7 +2,7 @@ import { titlesLanding, cardsEvents, paragraphsLanding } from "../../Ui/Ui"
 import { Link } from "react-router-dom"
 export function Events(){
     return (
-        <section id="Events" className="w-full min-h-175 flex">
+        <section id="Events" className="w-full min-h-175 flex border-b-2 border-red-600">
             <article className="w-1/2 h-full flex flex-col p-6 items-center gap-2.5 border-r-2
             border-red-600">
                 <div className="w-full h-3/10 flex flex-col items-center border-b-2 border-red-600">
