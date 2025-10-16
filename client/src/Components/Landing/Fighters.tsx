@@ -1,7 +1,7 @@
-import { cardsFighters, paragraphsLanding } from "../../Ui/Ui"
+import { cardsFighters, paragraphsLanding, titlesLanding } from "../../Ui/Ui"
 export function Fighters(){
     return(
-        <section className="w-full min-h-175 flex">
+        <section id="Fighters" className="w-full min-h-175 flex border-b-2 border-red-600">
             <article className="w-1/2 h-full flex flex-col items-center border-r-2
             border-red-600">
                 <figure className="w-full h-full flex items-center justify-center bg-black">
@@ -9,9 +9,9 @@ export function Fighters(){
                     h-full object-fill opacity-60"/>
                 </figure>
             </article>
-            <article className="w-1/2 h-full p-4 flex flex-col items-center gap-2.5">
+            <article className="w-1/2 h-full p-6 flex flex-col items-center gap-2.5">
                 <h2 className="text-3xl tracking-normal w-full pb-2 border-b-2
-                border-red-600 italic">¿Que información se puede encontrar sobre los peleadores?</h2>
+                border-red-600 italic">{titlesLanding.fighters}</h2>
                 <div className="w-full h-11/12 flex flex-col
                 items-center gap-1.5">
                     <p className="first-letter:text-2xl first-letter:text-red-600

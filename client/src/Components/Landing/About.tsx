@@ -1,7 +1,7 @@
 import { titlesLanding, paragraphsLanding } from "../../Ui/Ui"
 export function About(){
     return (
-        <section className="w-full min-h-145 flex border-b-2 border-red-600">
+        <section id="About" className="w-full min-h-145 flex border-b-2 border-red-600">
             <article className="h-full p-6 w-1/2 flex flex-col items-center gap-2.5 border-r-2
             border-red-600">
                 <div className="w-full h-2/5 flex flex-col items-center border-b-2 border-red-900">

@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
 import { pagesNav, titlesLanding } from "../../Ui/Ui"
+import { HashLink } from "react-router-hash-link"
 export function Header(){
     return (
         <header className="w-full min-h-16 border-b-2 border-red-600 px-4 py-2 flex
@@ -9,10 +9,10 @@ export function Header(){
                 <ul className="flex list-none items-center justify-evenly w-full h-full">
                     {pagesNav.map((page, index) => (
                         <li key={index} className="w-1/4 h-full flex items-center justify-center">
-                            <Link to={page.link} className="hover:underline hover:text-red-500 
-                            transition-colors duration-200 text-lg">
+                            <HashLink smooth to={page.link} className="hover:underline 
+                            hover:text-red-500 transition-colors duration-200 text-lg">
                                 {page.name}
-                            </Link>
+                            </HashLink>
                         </li>
                     ))}
                 </ul>
