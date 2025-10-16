@@ -25,7 +25,7 @@ export function About(){
             </article>
             <article className="h-full w-1/2 flex">
                 <figure className="w-full h-full flex items-center justify-center  bg-black">
-                    <img alt="About Image" src="../../public/About.jpg" className="w-full
+                    <img alt="About Image" src="/About.jpg" className="w-full
                     h-full object-fill opacity-60"/>
                 </figure>
             </article>
