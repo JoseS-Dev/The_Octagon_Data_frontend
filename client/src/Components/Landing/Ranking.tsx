@@ -7,7 +7,7 @@ export function Ranking(){
             <article className="w-full h-full">
                 <figure className="w-full h-full flex items-center justify-center bg-black
                 relative">
-                    <img alt="Ranking Image" src="../../public/Ranking.jpg" className="w-full
+                    <img alt="Ranking Image" src="/Ranking.jpg" className="w-full
                     h-full opacity-35"/>
                     <div className="z-10 absolute w-1/2 h-1/2 left-6 top-25 shadow-lg/30 shadow-black
                     p-4 flex flex-col items-center justify-evenly bg-black/30 rounded-2xl">

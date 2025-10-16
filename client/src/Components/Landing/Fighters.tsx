@@ -5,7 +5,7 @@ export function Fighters(){
             <article className="w-1/2 h-full flex flex-col items-center border-r-2
             border-red-600">
                 <figure className="w-full h-full flex items-center justify-center bg-black">
-                    <img alt="Fighters Image" src="../../public/Fighters.jpg" className="w-full
+                    <img alt="Fighters Image" src="/Fighters.jpg" className="w-full
                     h-full object-fill opacity-60"/>
                 </figure>
             </article>

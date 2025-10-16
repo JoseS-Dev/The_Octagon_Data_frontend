@@ -40,7 +40,7 @@ export function Events(){
             </article>
             <article className="w-1/2 h-full">
                 <figure className="w-full h-full flex items-center justify-center bg-black">
-                    <img alt="Events Image" src="../../public/Events.jpg" className="w-full
+                    <img alt="Events Image" src="/Events.jpg" className="w-full
                     h-full object-fill opacity-60"/>
                 </figure>
             </article>

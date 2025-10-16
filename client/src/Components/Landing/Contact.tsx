@@ -144,7 +144,7 @@ export function Contact() {
             <article className="w-full lg:w-2/5 h-full flex items-center justify-center scroll-animate 
             border-l-2 border-red-600">
                 <figure className="w-full h-full flex items-center justify-center bg-black">
-                    <img alt="Contact Image" src="../../public/Contact.png" className="w-full
+                    <img alt="Contact Image" src="/Contact.png" className="w-full
                     h-full object-fill opacity-55"/>
                 </figure>
             </article>
